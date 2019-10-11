@@ -1,0 +1,137 @@
+@media screen and (max-width: 568px) {
+  .wp-product-label span {
+    font-size: 1rem;
+    padding: 3px 5px !important;
+  }
+
+  .wp-product-label-top-right span {
+    width: 60%;
+    float: right;
+  }
+
+  .product-page-v1 .fotorama__caption {
+    display: none;
+  }
+
+  .goog-te-menu-value span:first-child {
+    display: inline-block;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -7px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .osc-page-top-block .col-mp:first-child img {
+    margin: -12px 0;
+  }
+
+  .theme-pearl.page-products .sorter {
+    left: 0;
+    position: relative;
+    float: left;
+  }
+
+  .toolbar.toolbar-products p#toolbar-amount {
+    display: none;
+  }
+
+  .toolbar.toolbar-products .toolbar-sorter.sorter label {
+    font-size: 12px;
+  }
+
+  .toolbar.toolbar-products select.sorter-options,
+  .toolbar.toolbar-products select.limiter-options {
+    font-size: 12px;
+  }
+
+  .sidebar.sidebar-main {
+    margin-bottom: 5px !important;
+  }
+
+  .page-products #maincontent > .columns {
+    -webkit-transform: translate(0, -5px);
+    transform: translate(0, -5px);
+    padding-top: 0;
+  }
+
+  .page-products #maincontent .toolbar.toolbar-products {
+    padding: 0;
+  }
+
+  .filter-title strong {
+    display: none;
+  }
+
+  .page-products #maincontent #page-title-heading {
+    margin: 0;
+  }
+
+  .page-products #maincontent .wp-filters-text {
+    display: none;
+  }
+
+  .page-products #maincontent {
+    padding-top: 0 !important;
+  }
+
+  .pre-footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.theme-pearl .opc-estimated-wrapper .minicart-wrapper .action.showcart .counter.qty,
+.theme-pearl .page-header .minicart-wrapper .action.showcart .counter.qty{
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  margin-left: -5px;
+  top: -8px;
+  position: relative;
+  z-index: -1;
+  display: inline-block;
+  background-color: #2d89fa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid #c6dcf7;
+  box-shadow: 0px 0px 0px 5px #eff5fd;
+  margin-top: 0;
+}
+.theme-pearl .opc-estimated-wrapper .minicart-wrapper .action.showcart .counter.qty{z-index: 1;}
+.theme-pearl .opc-estimated-wrapper .minicart-wrapper button.action.showcart:before{z-index: 3;position: relative}
+
+.theme-pearl .opc-estimated-wrapper .minicart-wrapper .action.showcart .counter.qty .counter-number,
+.theme-pearl .page-header .minicart-wrapper .action.showcart .counter.qty .counter-number{
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 23px;
+  display: inline;
+  font-size: 14px
+}
+.theme-pearl .page-wrapper .page-header .header.content .field.search label{margin-right: 12px;}
+
+.page-wrapper.zindex-class .page-header .header-multistore,
+.page-wrapper.zindex-class .page-header .panel.wrapper,
+.page-wrapper.zindex-class .page-header .header.content{z-index: -1;position: relative;}
+
+@media screen and (max-width: 768px) {
+  .page-wrapper .page-header .panel.header .header.links{display:block !important;}
+  .page-wrapper .page-header .panel.header ul.header.links li.greet.welcome{display:none !important;}
+  .page-wrapper .page-header .panel.header ul.header.links li.authorization-link{display: inline-block !important;position: absolute;top: 0;left: auto;right: 10px;bottom: auto;z-index: 2;}
+  .page-wrapper .page-header .panel.header ul.header.links li.authorization-link:before{content:'';}
+  .page-wrapper .page-header .panel.header ul.header.links li.authorization-link a{line-height: 0;font-size: 0;color: transparent; }
+  .page-wrapper .page-header .panel.header ul.header.links li.authorization-link a:before{content: "\e66c";font-family: 'font-icons';text-align: center;font-style: normal;line-height: 32px;font-weight: 700;font-variant: normal;text-transform: none;color:#A2C5F3!important;font-size:23px!important;position: absolute;left: 0;}
+  .offer-text{line-height: 32px;}
+  .theme-pearl.store-view-default .osc-page-top-block .osc-page-title h1{line-height: 2;margin-top:15px !important;display: inline-block;width: 100%;}
+}
