@@ -49,11 +49,18 @@ gulp.task("css-inject", function() {
   );
 });
 
+gulp.task("build", function() {
+	return gulp.src('./app/*.css')
+	.pipe(gulp.dest('D:/Clouds/Mega/Freelance/Active/MOJO_PRODUCTION/app/design/frontend/Pearl/weltpixel_custom_wholesale/web//css'));
+});
+
+
 //watch
 gulp.task("watch", function() {
   gulp.watch("src/scss/**/*.*", gulp.series("css"));
   gulp.watch("app/*.html", gulp.series("html"));
 });
+
 
 //watch-inject
 gulp.task("watch-inject", function() {
